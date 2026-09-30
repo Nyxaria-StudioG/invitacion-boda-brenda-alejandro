@@ -2579,24 +2579,21 @@ footer small {
 
 
     .names {
+    width: 100%;
+    max-width: 100%;
+    padding-inline: 8px;
+    gap: clamp(4px, 2vw, 10px);
+}
 
-        gap:
-            8px;
-    }
+.names span {
+    min-width: 0;
+    font-size: clamp(42px, 12vw, 92px);
+}
 
-
-    .names span {
-
-        font-size:
-            clamp(58px, 16vw, 105px);
-    }
-
-
-    .names small {
-
-        font-size:
-            clamp(25px, 7vw, 42px);
-    }
+.names small {
+    flex-shrink: 0;
+    font-size: clamp(22px, 6vw, 38px);
+}
 
 
     .hero-description {
@@ -2950,10 +2947,8 @@ footer small {
 
 
     .names span {
-
-        font-size:
-            clamp(52px, 17vw, 82px);
-    }
+    font-size: clamp(40px, 12vw, 72px);
+}
 
 
     .countdown {
